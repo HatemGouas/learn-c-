@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="projer4.css">
+</head>
+<body>
+     
+
+      <nav class="navbar" id="navbar">
+                <h1>C++ Documentation</h1>
+                <ul>
+                          <li id="liset"><a href="#Introduction" class="nav-link">Introduction</a></li>
+                          <li id="liset"><a href="#What_you_should_already_know" class="nav-link" id="stb">What you should already know</a></li>
+                          <li id="liset"><a href="#C_and_C++" class="nav-link">C and C++</a></li>
+                          <li id="liset"><a href="#Hello_world" class="nav-link">Hello world</a></li>
+                          <li id="liset"><a href="#Declaring_variables" class="nav-link">Declaring variables</a></li>
+                          <li id="liset"><a href="#Variable_scope" class="nav-link">Variable scope</a></li>
+                          <li id="liset"><a href="#Global_variables"  class="nav-link">Global variables</a></li>
+                          <li id="liset"><a href="#Constants"  class="nav-link">Constants</a></li>
+                          <li id="liset"><a href="#if...else_statement"  class="nav-link">if...else statement</a></li>
+                          <li id="liset"><a href="#Function_declarations"  class="nav-link">Function declarations</a></li>
+                          <li id="liset"><a href="#Function_declarations"  class="nav-link">Function declarations</a></li>
+                          
+                      
+                </ul>
+      </nav> 
+
+      <main id="main-doc">
+          <section class="main-section" id="Introduction">
+          <header>Introduction</header>
+          <p>C++ is a cross-platform language that can be used to create high-performance applications.C++ was developed by Bjarne Stroustrup, as an extension to the C language. C++ gives programmers a high level of control over system resources and memory.
+ The language was updated 3 major times in 2011, 2014, and 2017 to C++11, C++14, and C++17.</p>
+          <p>C++ is one of the world's most popular programming languages.C++ can be found in today's operating systems, Graphical User Interfaces, and embedded systems.
+           C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs.
+           C++ is portable and can be used to develop applications that can be adapted to multiple platforms.
+          As C++ is close to C# and Java, it makes it easy for programmers to switch to C++ or vice versa</p>
+          <p>C++ is fun and easy to learn!</p>                
+          </section>
+          <section class="main-section" id="What_you_should_already_know">
+                    <header>What you should already know</header>
+                    <p>Yes! C++ is nearly exactly a superset of Standard C95 (C90 and the 1995 Amendment 1). With very few exceptions, every valid C95 program is also a valid C++ program with the same meaning.
+
+                              A great first step is to simply use C++ as “a better C,” which means that you can program in the C subset of C++ and find the experience better than in C because C++ provides extra type-checking and sometimes extra performance even for plain C code.</p>
+                    <p>C++ is a direct descendant of C95 (C90 plus an Amendment) that retains almost all of C95 as a subset. C++ provides stronger type checking than C and directly supports a wider range of programming styles than C. C++ is “a better C” in the sense that it supports the styles of programming done using C with better type checking and more notational support (without loss of efficiency). In the same sense, ANSI C90/C95 is a better C than K&R C. In addition, C++ supports data abstraction, object-oriented programming, and generic programming (see The C++ Programming Language; Appendix B discussing compatibility issues is available for downloading).
+                        C is often called a middle-level computer language since it combines the elements of high-level languages with the functionalism of assembly language. C allows the manipulation of bits, bytes, and addresses—giving the programmer more control over exactly how the program will behave and a more direct access to the mechanics of the underlying hardware. C was created, influenced, and field-tested by working programmers. The end result is that C gives the programmer what the programmer wants. C++ is an enhanced version of the C language. C++ includes everything that is part of C and adds support for object-oriented programming (OOP). In addition, C++ also contains many improvements and features that make it a "better C," independent of object-oriented programming.
+                    </p>
+                    </section>
+
+                    <section class="main-section" id="C_and_C++">
+                        <header>C and C++</header>
+                        <p>As we know both C and C++ are programming languages and used for application development. The main difference between both these languages is C is a procedural programming language and does not support classes and objects, while C++ is a combination of both procedural and object-oriented programming languages.</p>
+                       <h1>C</h1>
+                        <ul>
+                            <li>C was developed by Dennis Ritchie in around 1969 at AT&T Bell Labs.</li>
+                            <li>As mentioned before C is procedural programming.</li>
+                            <li>As C does not support the OOPs concept so it has no support for polymorphism, encapsulation, and inheritance.</li>
+                            <li>C in general known as function-driven language.</li>
+                            <li>C does not support function and operator overloading also do not have namespace feature and reference variable functionality.</li>
+
+                        </ul>
+                        <h1>C++</h1>
+                        <UL>
+                            <li>C++ was developed by Bjarne Stroustrup in 1979.</li>
+                            <li>On the other hand, C++ supports both procedural and object-oriented programming paradigms.</li>
+                            <li>C++ has support for polymorphism, encapsulation, and inheritance as it is being an object-oriented programming language</li>
+                            <li>On the other hand, C++ is known as object driven language.</li>
+                            <li>On the other hand, C++ supports both function and operator overloading also have namespace feature and reference variable functionality.</li>
+                        </UL>
+                        </section>
+                        <section class="main-section" id="Hello_world">
+                            <header>Hello world</header>
+                            <p>In this example, you will learn to print "Hello, World!" on the screen in C programming.</p>
+                            <div id="back">                           
+                            <code>#include"stdio.h"</code>
+                            <code>   int main(){</code>
+                                <br>
+                                <code> printf("Hello World");</code>
+                                <br>
+                                    <code>  return 0;</code>
+                                    <br>
+                                        <code>}</code>
+                                    </div>
+                            </section>
+
+                            <section class="main-section" id="Declaring_variables">
+                                <header>Declaring variables</header>
+                                <p>Variable Declaration in C </p>
+                                   <p> You will use the keyword extern to declare a variable at any place. Though you can declare a variable multiple times in your C program, it can be defined only once in a file, a function, or a block of code.</p>
+                                <br>
+                                <div id="back">
+                                    <code>type variable_name = value;</code>
+                                </div>
+                                <p>Some Example</p>
+                                <div id="back">
+                                    <code>extern int d = 3, f = 5;    // declaration of d and f. </code><br>
+                                    <code>int d = 3, f = 5;           // definition and initializing d and f. </code><br>
+                                    <code>byte z = 22;                // definition and initializes z. </code><br>
+                                    <code>char x = 'x';               // the variable x has the value 'x'.</code><br>
+
+                                </div>
+                                </section>
+                                <section class="main-section" id="Variable_scope">
+                                    <header>Variable scope</header>
+                                    <p>If you live in an apartment building, you have a single key that allows you access to your apartment. The owner/manager of the apartment may also have a master key that allows access to all apartments.</p>
+                                    <p>A similar concept applies to variables in C. Variable scope refers to the accessibility of a variable in a given program or function. For example, a variable may only be available within a specific function (your apartment key), or it may be available to the entire C program (the shared access key).</p>
+                                  <div id="back">
+                                      <code>#include "stdio.h"</code><br>
+                                      <code>int main(void) {</code><br>
+                                      <code>  int room_key = 237;</code><br>
+                                      <code>printf("%d ", room_key);</code><br>
+                                      <code>}</code>
+                                  </div>    
+                                </section>
+                                <section class="main-section" id="Global_variables">
+                                    <header>Global variables</header>
+                                    <p>Global variables</p>
+                                    <p>Global variables are defined outside a function, usually on top of the program. Global variables hold their values throughout the lifetime of your program and they can be accessed inside any of the functions defined for the program.</p>
+                                    <p>A global variable can be accessed by any function. That is, a global variable is available for use throughout your entire program after its declaration. The following program show how global variables are used in a program.</p>
+                                    <div id="back">
+                                        <code>#include "stdio.h"</code><br>
+                                        <code>/* global variable declaration */</code><br>
+                                        <code>int g;</code><br>
+                                        <code>int main () {</code><br>
+                                        <code>/* local variable declaration */</code><br>
+                                        <code> int a, b;</code><br>
+                                        <code> /* actual initialization */</code><br>
+                                        <code>  a = 10;</code><br>
+                                        <code>b = 20;</code><br>
+                                        <code>  g = a + b;</code><br>
+                                        <code> printf ("value of a = %d, b = %d and g = %d\n", a, b, g);</code><br>
+                                        <code>  return 0;</code><br>
+                                        <code>}</code><br>
+                                    </div>
+
+                                    </section>
+
+
+                                    <section class="main-section" id="Constants">
+                                       <header>Constants</header>
+                                        <p>Constants refer to fixed values that the program may not alter during its execution. These fixed values are also called literals.</p>
+                                        <p>Constants can be of any of the basic data types like an integer constant, a floating constant, a character constant, or a string literal. There are enumeration constants as well.
+   
+                                Constants are treated just like regular variables except that their values cannot be modified after their definition.</p>
+                                        
+                                        </section> 
+                     <section class="main-section" id="if...else_statement">
+                     <header>if...else statement</header>
+                        <p>C++ Conditions and If Statements</p>
+                    <p>C++ supports the usual logical conditions from mathematics:</p>
+                    <p>C++ has the following conditional statements:</p>
+                    <ul>
+                        <li id="set">Use if to specify a block of code to be executed, if a specified condition is true</li>
+                        <li id="set">Use else to specify a block of code to be executed, if the same condition is false</li>
+                        <li id="set">Use else if to specify a new condition to test, if the first condition is false</li>
+                        <li id="set">Use switch to specify many alternative blocks of code to be executed</li>
+                    </ul>
+                    <div id="back">
+                        <code>if (condition) {</code><br>
+                        <code>  // block of code to be executed if the condition is true</code><br>
+                        <code>}</code><br>
+                    </div><br>
+                    <div id="back">Note that if is in lowercase letters. Uppercase letters (If or IF) will generate an error.</div>
+                     </section>
+                     <section class="main-section" id="Function_declarations">
+                        <header>Function declarations</header>
+                       
+                        <p>A function declaration tells the compiler about a function name and how to call the function. The actual body of the function can be defined separately.</p>
+                        <p>A function declaration has the following parts </p>
+                        <div id="back">return_type function_name( parameter list );</div>
+                        <p>For the above defined function max(), the function declaration is as follows </p>
+                        <div id="back">int max(int num1, int num2);</div>
+                        <p>Parameter names are not important in function declaration only their type is required, so the following is also a valid declaration </p>
+                        <div id="back">int max(int, int);</div>
+                        </section>
+                        <hr>
+                       <button id="hatem">Designed By HATEM</button>
+
+
+
+</main>
+
+</body>
+</html>
